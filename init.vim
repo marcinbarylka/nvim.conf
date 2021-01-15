@@ -4,7 +4,6 @@ filetype off                  " required
 call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'morhetz/gruvbox'
-  Plug 'rainglow/vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'tpope/vim-fugitive'
