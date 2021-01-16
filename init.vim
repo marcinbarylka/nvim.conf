@@ -10,18 +10,19 @@ call plug#begin()
   Plug 'dense-analysis/ale'
   Plug 'airblade/vim-gitgutter'
   Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
-  Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build' }
+  Plug 'fannheyward/coc-pyright'
   Plug 'jiangmiao/auto-pairs'
   Plug 'yuezk/vim-js'
   Plug 'HerringtonDarkholme/yats.vim'
   Plug 'maxmellon/vim-jsx-pretty'
+  Plug 'chriskempson/base16-vim'
+  Plug 'vim-python/python-syntax'
 call plug#end()
 
 syntax enable
-set t_Co=256
 set background=dark
-colorscheme gruvbox
-
+set termguicolors 
+colorscheme base16-solarized-dark
 set bs=2
 set mouse=a
 
