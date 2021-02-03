@@ -17,12 +17,15 @@ call plug#begin()
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'chriskempson/base16-vim'
   Plug 'vim-python/python-syntax'
+  Plug 'camgunz/amber'
+  Plug 'Dimercel/todo-vim'
+  Plug 'enricobacis/vim-airline-clock'
 call plug#end()
 
 syntax enable
 set background=dark
 set termguicolors 
-colorscheme base16-solarized-dark
+colorscheme base16-material-vivid
 set bs=2
 set mouse=a
 
